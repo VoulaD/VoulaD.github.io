@@ -3,96 +3,232 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Voula Dimitriadis — Finance & Strategy</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Voula Dimitriadis</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-  <header>
-    <h1>Stavroula (Voula) Dimitriadis</h1>
-    <p class="subtitle">Finance & Strategy · Boston University '26 · New York, NY</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-      <a href="./Stavroula_Dimitriadis_Resume.pdf" target="_blank">Resume ↗</a>
-    </nav>
-  </header>
+<!-- NAV -->
+<nav class="topnav">
+  <div class="nav-name">Voula Dimitriadis</div>
 
-  <section id="about">
-    <h2>About me</h2>
-    <p>
-      Hi! My name is Voula and I'm a senior at BU, pursuing a Bachelor’s degree in Business Administration, with a focus on finance. As a Revenue Intern at Highgate, I gained hands-on experience analyzing pricing trends, assessing market performance through data-driven insights, and executing on revenue optimization strategies. Evaluating investment opportunities and conducting market research through the BU Finance and Investment Club has also strengthened my analytical and collaboration skills.
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact" class="nav-resume">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+
+  <div class="hero-photo">
+    <div class="photo-frame">
+      <div class="photo-accent"></div>
+      <img src="your-photo.jpg" alt="Voula">
+    </div>
+  </div>
+
+  <div>
+    <div class="hero-tag">Finance & Strategy</div>
+
+    <h1>Voula<span class="dot">.</span></h1>
+
+    <p class="hero-bio">
+      Finance student at Boston University with experience in 
+      <strong>financial modeling</strong>, <strong>revenue analysis</strong>, 
+      and <strong>strategic problem solving</strong>. 
+      Interested in consulting and data-driven decision-making.
     </p>
-    <div class="skills">
-      <span>DCF Modeling</span>
-      <span>Excel</span>
-      <span>Forecasting</span>
-      <span>Budgeting</span>
-      <span>MySQL</span>
-      <span>Equity Research</span>
-    </div>
-  </section>
 
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="exp-item">
-      <div class="exp-header">
-        <strong>Revenue Intern — Highgate</strong>
-        <span>June – August 2025</span>
-      </div>
-      <p>Built monthly and annual forecasts for $42M in revenue; prepared a $10.7M quarterly budget
-      and generated pacing reports to evaluate competitive positioning.</p>
+    <div class="hero-tags">
+      <span>Financial Analysis</span>
+      <span>Consulting</span>
+      <span>Strategy</span>
     </div>
-    <div class="exp-item">
-      <div class="exp-header">
-        <strong>Financial Data Assistant — BU Office of Research</strong>
-        <span>May – September 2024</span>
-      </div>
-      <p>Structured financial data and allocated $50,000 in funds across accounts; conducted
-      data preprocessing and trend analysis in Excel.</p>
-    </div>
-    <div class="exp-item">
-      <div class="exp-header">
-        <strong>Junior Analyst — BU Finance & Investment Club</strong>
-        <span>September 2023 – May 2024</span>
-      </div>
-      <p>Analyzed financial statements for 8 mid-cap companies across Consumer Goods and TMT sectors;
-      pitched equities to an investment panel.</p>
-    </div>
-  </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View Work</a>
+      <a href="#contact" class="btn-secondary">Get in Touch</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <h2 class="section-title">About</h2>
+
+    <p>
+      I’m a finance student at Boston University with a strong interest in consulting and financial analysis. 
+      My experience spans revenue forecasting, financial modeling, and strategic evaluation across both academic 
+      and professional settings. I enjoy translating data into insights and using those insights to guide 
+      business decisions.
+    </p>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section-alt">
+  <div class="section-inner">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="timeline">
+
+      <!-- Highgate -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+          <div class="tl-header">
+            <div>
+              <h3>Revenue Intern</h3>
+              <div class="tl-company">Highgate</div>
+            </div>
+            <div class="tl-date">Summer 2025</div>
+          </div>
+
+          <ul>
+            <li><strong>Built</strong> revenue forecasts for a $42M portfolio to support pricing and strategy decisions</li>
+            <li><strong>Developed</strong> a $10.7M budget and recommended resource allocation strategies</li>
+            <li><strong>Produced</strong> performance reports to identify trends and deliver actionable insights</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Office of Research -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+          <div class="tl-header">
+            <div>
+              <h3>Financial Data Assistant</h3>
+              <div class="tl-company">Boston University Office of Research</div>
+            </div>
+            <div class="tl-date">2024</div>
+          </div>
+
+          <ul>
+            <li><strong>Structured</strong> financial data supporting allocation of $50K+ across research accounts</li>
+            <li><strong>Analyzed</strong> data in Excel to identify trends and support project outcomes</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Finance Club -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+          <div class="tl-header">
+            <div>
+              <h3>Junior Analyst</h3>
+              <div class="tl-company">Finance & Investment Club</div>
+            </div>
+            <div class="tl-date">2023 – 2024</div>
+          </div>
+
+          <ul>
+            <li><strong>Analyzed</strong> financial statements of 8 companies to evaluate investment opportunities</li>
+            <li><strong>Built</strong> models projecting financial performance and valuation</li>
+            <li><strong>Presented</strong> equity research to an investment panel</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Basketball -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+          <div class="tl-header">
+            <div>
+              <h3>Team Manager</h3>
+              <div class="tl-company">BU Division I Basketball</div>
+            </div>
+            <div class="tl-date">Present</div>
+          </div>
+
+          <ul>
+            <li><strong>Coordinate</strong> operations and logistics for a Division I team</li>
+            <li><strong>Collaborate</strong> with coaching staff to improve workflows</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-inner">
+    <h2 class="section-title">Projects</h2>
+
     <div class="project-grid">
+
       <div class="card">
-        <h3>Revenue Forecasting Model</h3>
-        <p>Excel-based monthly and annual forecast for $42M in hotel revenue, including
-        trend analysis and competitive benchmarking.</p>
-        <a href="link-to-project">View project →</a>
+        <div class="card-icon">📊</div>
+        <h3>Sally Beauty Consulting Project</h3>
+        <div class="card-meta">Strategy</div>
+        <p>Conducted cost and WTP analysis to diagnose profitability gaps and recommend growth strategies.</p>
+        <a href="#" class="card-link">View Project →</a>
       </div>
+
       <div class="card">
-        <h3>Cross-Functional Business Plan</h3>
-        <p>Led finance workstream of a 100-page consulting-style business plan pitched
-        to investors, covering valuation, forecasting, and market entry strategy.</p>
-        <a href="link-to-project">View project →</a>
+        <div class="card-icon">📈</div>
+        <h3>Business Plan & Financial Model</h3>
+        <div class="card-meta">Finance</div>
+        <p>Developed a full financial model and valuation to assess viability of a new business concept.</p>
+        <a href="#" class="card-link">View Project →</a>
       </div>
-      <div class="card">
-        <h3>Equity Research — Consumer Goods & TMT</h3>
-        <p>In-depth analysis of 8 mid-cap companies over a 3-year period; built
-        projection models and presented buy/sell/hold recommendations.</p>
-        <a href="link-to-project">View project →</a>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section-alt">
+  <div class="section-inner contact-inner">
+
+    <div class="contact-text">
+      <h2 class="section-title">Contact</h2>
+      <p>Feel free to reach out — I’d love to connect.</p>
+
+      <div class="contact-links">
+        <a href="mailto:stavrouladimitriadis@gmail.com" class="contact-item">
+          <div class="contact-icon">E</div>
+          stavrouladimitriadis@gmail.com
+        </a>
+
+        <a href="#" class="contact-item">
+          <div class="contact-icon">L</div>
+          LinkedIn
+        </a>
       </div>
     </div>
-  </section>
 
-  <section id="contact">
-    <h2>Get in touch</h2>
-    <p>I'm actively seeking full-time opportunities in finance or consulting.</p>
-    <p>📧 <a href="mailto:stavrouladimitriadis@gmail.com">stavrouladimitriadis@gmail.com</a></p>
-    <p>💼 <a href="https://www.linkedin.com/in/voula-d5" target="_blank">linkedin.com/in/voula-d5</a></p>
-  </section>
+    <div class="contact-badge">
+      <p>Currently</p>
+      <h3>Open to Opportunities</h3>
+      <p class="badge-sub">Consulting & Finance Roles</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Voula Dimitriadis
+</footer>
 
 </body>
-</html
+</html>
